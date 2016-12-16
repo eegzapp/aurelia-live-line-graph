@@ -116,6 +116,12 @@
           "aurelia-templating",
           "aurelia-templating-binding",
           "text",
+          "jquery",
+          {
+            "name": "d3",
+            "path": "../node_modules/d3/build",
+            "main": "d3"
+          },
           {
             "name": "aurelia-templating-resources",
             "path": "../node_modules/aurelia-templating-resources/dist/amd",
