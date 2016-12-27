@@ -29,7 +29,8 @@
     "displayName": "Sass",
     "fileExtension": ".scss",
     "source": [
-      "src/**/*.scss"
+      "src/**/*.scss",
+      "src/test.css"
     ]
   },
   "assetProcessor": {
