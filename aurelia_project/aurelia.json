@@ -30,15 +30,14 @@
     "fileExtension": ".scss",
     "source": [
       "src/**/*.scss",
-      "src/test.css"
+      "node_modules/**/font-awesome/css/font-awesome.min.css"
     ]
   },
   "assetProcessor": {
     "id": "none",
     "source": [
       "apple-touch-icon-precomposed.png",
-      "node_modules/**/font-awesome/fonts/*{.svg,woff2,eot}",
-      "node_modules/**/font-awesome/css/font-awesome.min.css"
+      "node_modules/**/font-awesome/fonts/*{.svg,woff2,eot}"
     ]
   },
   "editor": {
