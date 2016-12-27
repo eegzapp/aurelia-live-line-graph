@@ -33,11 +33,15 @@
       "node_modules/**/font-awesome/css/font-awesome.min.css"
     ]
   },
-  "assetProcessor": {
+  "inBundleAssetProcessor": {
     "id": "none",
     "source": [
-      "apple-touch-icon-precomposed.png",
-      "node_modules/**/font-awesome/fonts/*{.svg,woff2,eot}"
+    ]
+  },
+  "outOfBundleAssetProcessor": {
+    "id": "none",
+    "source": [
+      "apple-touch-icon-precomposed.png"
     ]
   },
   "editor": {

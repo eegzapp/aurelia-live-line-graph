@@ -4,10 +4,10 @@ import project from '../aurelia.json';
 import changedInPlace from 'gulp-changed-in-place';
 import merge from 'merge2';
 
-export default function processAssets() {
+export default function processOutOfBundleAssets() {
     var pipes = [];
 
-    project.assetProcessor.source.forEach(asset => {
+    project.outOfBundleAssetProcessor.source.forEach(asset => {
         pipes.push(
             gulp.src(asset)
                 .pipe(changedInPlace({firstPass: true}))
