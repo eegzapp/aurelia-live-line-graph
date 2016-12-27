@@ -28,7 +28,17 @@
     "id": "sass",
     "displayName": "Sass",
     "fileExtension": ".scss",
-    "source": "src/**/*.scss"
+    "source": [
+      "src/**/*.scss"
+    ]
+  },
+  "assetProcessor": {
+    "id": "none",
+    "source": [
+      "apple-touch-icon-precomposed.png",
+      "node_modules/**/font-awesome/fonts/*{.svg,woff2,eot}",
+      "node_modules/**/font-awesome/css/font-awesome.min.css"
+    ]
   },
   "editor": {
     "id": "vscode",
@@ -117,6 +127,17 @@
           "aurelia-templating-binding",
           "text",
           "jquery",
+          {
+            "name": "bootstrap",
+            "path": "../node_modules/bootstrap/dist",
+            "main": "js/bootstrap",
+            "resources": [
+              "css/bootstrap.css"
+            ],
+            "deps": [
+              "jquery"
+            ]
+          },
           {
             "name": "d3",
             "path": "../node_modules/d3/build",
