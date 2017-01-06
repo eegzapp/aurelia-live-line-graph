@@ -1,3 +1,39 @@
 body {
-    color: green;
+}
+
+.vertical-tab-bar {
+    background-color:#888888;
+    min-width:75px;
+    max-width:75px;
+    
+    // Non-fluid settings
+    padding: 0;
+
+    // Fluid settings
+    // padding-right:3px; // padding is weird because bootstrap expects padding as part of it's design
+    // padding-left:14px;
+}
+
+.vertical-tab {
+    position:relative;
+    background-color: #BBBBBB;
+    width: calc(100%);
+    padding-bottom: calc(100%);
+    //border: 1px solid #888888;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    left: 1px;
+    display: block;
+}
+.vertical-tab-icon-and-text {
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    white-space: nowrap
+}
+.vertical-tab-icon {
+    position:relative;
+    left: 50%;
+    transform: translate(-50%,0);
 }
